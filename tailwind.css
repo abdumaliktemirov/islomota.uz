@@ -58,11 +58,3 @@
 .swiper-pagination-bullet.swiper-pagination-bullet-active{
 	@apply w-4 h-4;
 }
-
-
-
-.border-red{
-	/* border: 1px solid red; */
-	width: 500px;
-	height: 500px;
-}
