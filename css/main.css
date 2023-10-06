@@ -727,6 +727,9 @@ h3 {
 .mt-2 {
   margin-top: 0.5rem;
 }
+.mt-6{
+  margin-top: 2rem;
+}
 
 .line-clamp-1 {
   overflow: hidden;
@@ -747,6 +750,13 @@ h3 {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
+}
+.line-clamp-4{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  line-height: 18px;
 }
 
 .line-clamp-5 {
@@ -1412,17 +1422,16 @@ h3 {
 
 .category-page-left {
   background: #ffffff;
-  background-color: red;
   border-radius: 2px;
   padding: 12px;
   max-width: 1400px;
 }
 
-.category-page-top {
+.single-page {
   background: #ffffff;
   border-radius: 2px;
-  /* padding:30px 50px 30px 30px; */
-  background-color: red;
+  padding: 30px;
+  /* background-color: #1b98e0; */
   width: 400px;
 }
 
@@ -1499,6 +1508,11 @@ h3 {
 .g-bt:hover {
   background-color: #0088ff;
 }
+image-wd{
+width: 180px;
+height: 100%;
+}
+
 
 /* Media */
 @media (min-width: 641px) {
